@@ -1,5 +1,4 @@
 version: '3'
-
 services:
   surrealdb:
     image: surrealdb/surrealdb:v2
@@ -11,7 +10,6 @@ services:
     pull_policy: always
     restart: always
     user: root
-
   open_notebook:
     image: lfnovo/open_notebook:latest
     ports:
